@@ -32,7 +32,7 @@ module ActionController
       else
         klass.parent
       end
-    end     end
+    end
 
     def serialization_scope
       return unless _serialization_scope && respond_to?(_serialization_scope, true)
